@@ -1,0 +1,205 @@
+*{
+    margin:0px;
+    padding:3px;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.padre{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+    .header{
+        display: flex;
+        margin-right: 30px;
+        justify-content: space-between;
+        align-content: space-between;
+        margin-left: 0px;
+    }
+    .Inicio{
+        width: 100%;
+         display: flex;
+         flex-flow: row wrap;
+         justify-content: space-between;
+         align-content: space-between;
+         
+     }
+         .Inicio img{
+             width: 30%;
+         }
+         .nav1{
+             
+             display: flex;
+             justify-content: space-between;
+             align-content: space-between;
+             align-items: center;
+             width: 50%;
+             margin-right: 80px;
+             
+         }
+             .nav1 > a{
+                 color: #4e4e4e;
+                 margin-left: 30px;
+                 
+             }
+             .Secc1{
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                
+    }
+    .Secc1 img{
+        width: 100%;
+                    
+    }
+    .Secc2{
+        display: flex;
+        flex-direction: row;
+        color: #4e4e4e;
+    }
+    .primero{
+        width: 75%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        
+    }
+    .primero img{
+        
+        margin-bottom: 50px;
+        
+        
+    }
+    .S2{
+        color: #4e4e4e;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: left;
+        margin: 100px;
+    }
+        .S2 span{
+        font-weight: bolder;
+        color: black;
+        }
+        .S2 p1{
+            font-style: italic;
+        }
+    .RedesS1{
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-end;
+        
+        
+    }
+    .segundo{
+        width: 25%;
+        margin-top: 50px;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .RedesS2{
+        display: flex;
+        
+        color: #4e4e4e;
+        margin-right: 100px;
+        margin-bottom: 50px;
+        
+    }
+    .top{
+        margin-bottom: 30px;
+    }
+    .list{
+        color: #4e4e4e;
+        margin-left: 20px;
+        
+    }
+    .Secc3{
+        background: #e8e8e8;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 40px;
+        align-items: center;
+        color: #4e4e4e;
+        
+        
+    }
+    .Secc3 img{
+        
+        width: 250px;
+        height: 200px;
+        margin-right: 50px;
+    }
+    
+    .Part{
+        display: flex;
+    }
+    .title{
+        
+        text-align: left;
+        width: 70%;
+    }
+    .Secc4{
+        margin-top: 80px;
+        margin-left: 80px;
+        color: #4e4e4e;
+    }
+        .Contenedor2{
+            display: flex;
+            flex-direction: column;
+
+
+        }
+            .comment{
+                margin-top: 20px;
+                display: flex;
+                
+            }
+            .comment p{
+                
+                width: 1000px;
+            }
+            .comment img{
+                margin-right: 20px;
+                height: 100px;
+                
+            }
+            .RedesS1{
+                color: #4e4e4e;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: flex-end;
+                margin-right: 150px;
+            }
+            .foot{
+                color: #4e4e4e;
+                background: #b8b2a6;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-left: 80px;
+                padding-right: 80px;
+                height: 100px;;
+            }
+                .RedesS{
+                    display: flex;
+                }
+                    .RedesS a{
+                        
+                        cursor: pointer;
+                        
+                    }
+                    .nav2 a{
+                        color: #4e4e4e;
+                    }
